@@ -9,4 +9,4 @@
 
 source /home/hoe01h/.bash_profile
 cd /data/hoe01h/abt/abt10/python
-python run.py -p manipulator_discrete -c config_3dof.yaml
+python run.py -p manipulator_discrete -c config_4dof.yaml
