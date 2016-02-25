@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-#SBATCH --job-name=mpc1
+#SBATCH --job-name=mpc2
 #SBATCH --time=12:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -11,5 +11,5 @@
 #SBATCH --mail-user=hoergems@gmail.com
 
 source /home/hoe01h/.bash_profile
-cd /data/hoe01h/LQG1_$SLURM_ARRAY_TASK_ID/
+cd /data/hoe01h/LQG2_$SLURM_ARRAY_TASK_ID/
 python mpc.py
