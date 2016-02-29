@@ -11,5 +11,5 @@
 #SBATCH --mail-user=hoergems@gmail.com
 
 source /home/hoe01h/.bash_profile
-cd /data/hoe01h/LQG/LQG2_$SLURM_ARRAY_TASK_ID/
+cd /data/hoe01h/LQG2/LQG2_$SLURM_ARRAY_TASK_ID/
 python mpc.py
