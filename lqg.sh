@@ -11,4 +11,4 @@
 
 source /home/hoe01h/.bash_profile
 cd /data/hoe01h/LQGActual/LQG/
-python lqg -d
+python lqg.py -d
