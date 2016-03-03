@@ -9,5 +9,5 @@
 #SBATCH --mail-user=hoergems@gmail.com
 
 source /home/hoe01h/.bash_profile
-cd /data/hoe01h/abt/abt11/python
+cd /data/hoe01h/abt2/abt11/python
 python run.py -p manipulator_discrete -c config_4dof.yaml
